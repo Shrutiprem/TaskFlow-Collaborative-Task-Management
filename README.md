@@ -1,16 +1,42 @@
-# React + Vite
+# TaskFlow – Collaborative Task Management
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Project Overview
 
-Currently, two official plugins are available:
+TaskFlow is a frontend task management application developed using React.js and CSS. It helps users organize tasks, monitor project progress, and manage development activities through a Kanban board.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Technologies Used
+- React.js
+- JavaScript
+- HTML5
+- CSS3
+- Browser LocalStorage
 
-## React Compiler
+## Features
+- Interactive Kanban board
+- Add, edit, and delete tasks
+- Drag and drop task management
+- My Tasks dashboard
+- Activity tracking
+- Task details and comments
+- Notifications
+- Profile settings
+- Responsive user interface
+- LocalStorage data persistence
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Installation
 
-## Expanding the ESLint configuration
+1. Clone the repository:
+   `git clone YOUR_GITHUB_REPOSITORY_URL`
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+2. Navigate to the project folder:
+   `cd TaskFlow-Collaborative-Task-Management`
+
+3. Install dependencies:
+   `npm install`
+
+4. Start the application:
+   `npm run dev`
+
+## Project Type
+
+Frontend-only application. Task information is stored locally in the browser using LocalStorage. No backend or database is connected.
